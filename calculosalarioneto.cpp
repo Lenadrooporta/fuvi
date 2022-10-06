@@ -40,7 +40,7 @@ int main (){
 	//PEDIR DATOS AL USUARIO
 	cout << " Hola, Bienvenido" << endl;
 	cout << " Ingrese su Nombre: " << endl;
-	cin >> nombre;
+	getline(cin,nombre);
 	cout << " Mucho gusto " << nombre << endl;
 	cout << "Ingrese su salaio basico: C$";
 	cin >> salarioBasico;
