@@ -18,8 +18,6 @@ int main(){
 	int num, intento = 1;
 	
 	do{
-		cout << aleatorio;
-		
 		cout << "Adivine un numero entre 0 y 10" << endl;
 		cin >> num;
 		if(num == aleatorio){
@@ -32,7 +30,10 @@ int main(){
 			}
 			intento++;
 		}
-	}
+	}while(intento < 4);
+	
+	cout << "El numero ganador era: " << aleatorio << endl;
+
 	
 	return 0;		
 }
